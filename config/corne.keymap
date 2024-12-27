@@ -5,8 +5,10 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     keymap {
@@ -37,10 +39,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp TAB    &bl BL_TOG     &rgb_ug RGB_TOG  &none         &none         &none           &none         &kp LEFT_BRACKET  &none         &kp SEMICOLON  &none   &kp BSPC
+&none      &kp SEMICOLON  &none            &none         &none         &none           &kp LEFT      &kp DOWN          &kp UP        &kp RIGHT      &trans  &trans
+&kp LSHFT  &kp NUMBER_1   &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_0   &trans  &trans
+                                           &kp LGUI      &trans        &kp SPACE       &kp RET       &trans            &kp RALT
             >;
         };
 
