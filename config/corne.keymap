@@ -39,10 +39,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &bl BL_TOG     &rgb_ug RGB_TOG  &none         &none         &none           &none         &kp LEFT_BRACKET  &none         &kp SEMICOLON  &none   &kp BSPC
-&none      &kp SEMICOLON  &none            &none         &none         &none           &kp LEFT      &kp DOWN          &kp UP        &kp RIGHT      &trans  &trans
-&kp LSHFT  &kp NUMBER_1   &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_0   &trans  &trans
-                                           &kp LGUI      &trans        &kp SPACE       &kp RET       &trans            &kp RALT
+&kp TAB          &bl BL_TOG     &rgb_ug RGB_TOG  &none         &none         &none           &none         &kp LEFT_BRACKET  &none         &kp SEMICOLON  &none   &kp BSPC
+&rgb_ug RGB_BRI  &kp SEMICOLON  &none            &none         &none         &none           &kp LEFT      &kp DOWN          &kp UP        &kp RIGHT      &trans  &trans
+&kp LSHFT        &kp NUMBER_1   &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_0   &trans  &trans
+                                                 &kp LGUI      &trans        &kp SPACE       &kp RET       &trans            &kp RALT
             >;
         };
 
